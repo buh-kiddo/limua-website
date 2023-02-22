@@ -14,6 +14,10 @@ section {
 .section-p1 {
   padding: 0 20px;
 }
+html,body {
+    margin: 0;
+    padding: 0;
+  }
 /*body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 } */
@@ -443,3 +447,15 @@ footer .copyright {
   }
 
 }
+@media only screen and (max-width: 767px) {
+    body {
+      overflow-x: hidden;
+    }
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
